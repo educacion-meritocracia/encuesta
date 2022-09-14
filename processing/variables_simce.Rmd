@@ -1,0 +1,27 @@
+---
+title: "preguntas_simce"
+author: "Equipo EDUMER"
+date: "2022-09-14"
+output: html_document
+---
+
+```{r}
+pacman::p_load(readxl, dplyr, kableExtra)
+
+simce <- read_excel("input/data/original/preguntas_de_interes.xlsx")
+simce <- simce %>% as.data.frame()
+```
+
+```{r echo=FALSE, fig.align = 'center', out.width = '100%',out.height='100%'}
+knitr::kable(simce,
+             col.names =  c("Código",
+                            "Pregunta",
+                            "Categorías de respuesta",
+                            "Fuente"),
+             caption = "Variables meritocracia SIMCE") %>%
+  column_spec(1, bold = T) %>%
+  collapse_rows(columns = 3, valign = "middle") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"),
+                latex_options = c("scale_down"))
+```
+
