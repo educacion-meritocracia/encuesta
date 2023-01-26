@@ -1,0 +1,139 @@
+---
+title: "Tipos de experimentos"
+subtitle: ".medium[**Resultados preliminares**]"
+author: "Juan Carlos Castillo, Mauricio Salgado & Kevin Carrasco"
+institute: ".small[**FONDECYT N°1210847 Meritocracia en la escuela**]"
+output:
+  xaringan::moon_reader:
+    css: ["custom_lisa.css"]
+    seal: false
+    nature:
+      highlightStyle: solarized-dark
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "xaringan_custom/macros.js"
+      ratio: '16:9'
+---
+
+class: middle title-slide
+
+```{r xaringanExtra, echo = FALSE}
+  xaringanExtra::use_progress_bar(color = "red", location = c("top"))
+```
+
+.pull-left-narrow[
+
+
+![:scale 70%](images/edumer.png)
+.small[.red[FONDECYT N°1210847 Meritocracia en la Escuela]
+]
+]
+
+
+
+## Tipos de experimentos
+
+
+
+----
+
+.small[26 de enero 2023]
+
+
+---
+
+layout: true
+class: animated, fadeIn
+
+
+---
+
+
+class: inverse animated slideInRight
+
+### .red[Tres tipos de experimentos
+]
+
+.pull-right[
+.large[
+1. Juego del dictador
+2. Tratamiento de información
+3. Otros tipos de juegos
+]
+]
+
+---
+# .black[Juego del dictador]
+
+Grupos de 4 personas. Se les reparte una cantidad determinada de dinero y cada uno elige la forma de repartirlo (de forma anónima)
+
+  - Barr, et al (2015) & Aguiar, et al (2021):
+
+Dos tipos de grupos. Un grupo realiza una tarea de esfuerzo y el otro no. Al grupo de esfuerzo se le asigna el dinero según su productividad, al otro grupo se le asigna de manera aleatoria
+
+---
+# .black[Juego del dictador]
+
+Grupos de 4 personas. Se les reparte una cantidad determinada de dinero y cada uno elige la forma de repartirlo (de forma anónima)
+
+  - Almås, et al (2016):
+  
+A diferencia de los anteriores, el grupo que asigna las recompensas no participa en las tareas ni recibe dinero
+  
+Además incluyen información sobre **costos de redistribución**
+
+---
+# .black[Tratamiento de información]
+
+Al grupo de tratamiento se le entrega algún tipo de información antes o durante la encuesta
+
+  - Darnon, et al (2018) entregan información a un grupo sobre la importancia de meritocracia, capacidad y motivación en la etapa escolar. Ej: "En la escuela, todos tienen las mismas oportunidades para empezar (...). Para tener éxito en la escuela, los niños tienen que merecerlo. (...). Por lo tanto, si los estudiantes fallan, solo pueden culparse a sí mismos".
+  
+---
+# .black[Tratamiento de información]
+
+Al grupo de tratamiento se le entrega algún tipo de información antes o durante la encuesta
+
+  - Batruch, et al (2022) además de información similar al experimento anterior, entregan información a otro grupo sobre las fallas del sistema educativo. Ej: “Si bien la desventaja educativa es un problema en todo el mundo, el problema es especialmente pronunciado en Australia. Esto significa que todavía hay muchas barreras incluso para los estudiantes australianos que trabajan duro para salir adelante en el sistema educativo”. 
+  
+  - También complementan estos enunciados con información estadística.
+  
+---
+# .black[Tratamiento de información]
+
+Al grupo de tratamiento se le entrega algún tipo de información antes o durante la encuesta
+  
+  - En Mijs & Hoy (2021) el grupo de tratamiento A recibió información sobre el nivel de desigualdad de ingresos y movilidad social en su país; los participantes del grupo B recibieron información sobre su posición en la distribución del ingreso, y el grupo de control no recibió información.
+
+---
+# .black[Otros tipos de juegos]
+
+  - Huppert, et al (2019). Internacional 13 países (incluido Chile) con niños de 4 a 11 años.
+
+Tres versiones de un juego de justicia distributiva con dulces:
+  
+  1. Una persona con muchos dulces y otra con pocos (riqueza)
+  
+  2. Una persona "que hizo todo su trabajo hoy" y otra que no (mérito)
+  
+  3. Una persona con una pierna rota y otra persona que no (empatía)
+  
+---
+# .black[Otros tipos de juegos]
+
+  - Hamann, et al (2014). Parejas de niños del mismo sexo y de tres años
+  
+Dos tipos de trabajo: colaborativo y trabajo paralelo. 
+  
+Para cada tipo de trabajo, dos tipos de condiciones: Merecedor (más trabajo, más recompensas) y No merecedor (Más trabajo, menos recompensas).
+
+Asignación de juguetes (recompensas). Según la condición, se le entregan 3 o 1 juguete.
+
+Los niños eligen si redistribuir (o no)
+
+---
+class: roja middle
+
+# ¡Muchas gracias!
+
+
